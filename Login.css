@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(login.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center;
+    background-size: cover
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+display: inline-block;
+list-style: none;
+margin: 5px 25px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #636363;
+}
+
+form{
+    background: transparent;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+}
+
+form input{
+    display: block;
+    background: none;
+    margin: 18px auto;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #000000;
+    outline: none;
+    width: 180px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+form input[type = "submit"]{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    background: #000000;
+    color: white;
+}
+
+p{
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    font-weight: 600;
+}
