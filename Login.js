@@ -7,15 +7,15 @@ form.addEventListener("submit", (e) => {
     const errors = [];
 
     if(username.value.trim() === ""){
-        errors.push("Username required")
+        errors.push("Entrez votre nom d'utilisateur !")
     }
 
     if(password.value.length < 4){
-        errors.push("Password must be at least 4 charaters")
+        errors.push("Mot de passe : Minimum 4 caractère")
     }
 
     if(password.value.length >10){
-        errors.push("Password must be less than 10 charaters")
+        errors.push("Mot de passe : Maximum 10 caractère")
     }
 
     if(errors.length > 0){
